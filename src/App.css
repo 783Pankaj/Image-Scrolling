@@ -1,0 +1,106 @@
+/*     Image Scrolling css 
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: rgb(89, 77, 198);
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.slide {
+  min-width: 50%;
+  height: 60vh;
+  font-size: 50px;
+}
+
+
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  top: 46%;
+  color: white;
+  background: black;
+  border-radius: 9999px;
+  padding: 4px 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  left: 5%;
+}
+
+.right-arrow {
+  right: 5%;
+}
+ img{
+  width: 1400px;
+  height: 800px;
+  object-fit: contain;
+ }
+
+  */
+
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    background-color: rgb(10, 27, 184);
+    max-width: 600px;
+    padding: 10px 20px 20px;
+    border-radius: 12px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container h2 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    color: rgb(251, 245, 245);
+  }
+  
+  button {
+    background: rgb(198, 202, 237);
+    color: rgb(10, 27, 184);
+    border: 2px solid rgb(10, 27, 184);
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  section div,
+  section p {
+    background-color: rgb(176, 205, 235);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 0px;
+  }
+  
+  section p {
+    padding-bottom: 20px;
+  }
+  
+  section > div.closed {
+    margin-bottom: 20px;
+    background-color: rgb(147, 164, 221);
+  }
+  
